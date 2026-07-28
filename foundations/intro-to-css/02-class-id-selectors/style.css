@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+/* * **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
+* **The second element**: blue text and a font size of 36px
+* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
+* **The fourth element**: a light green background, a font size of 24px, and bold
+ */
+
+ .class1, .cooler-class, .class5{
+    background-color: rgb(243, 151, 166);
+    font-family: verdana, Dejavu Sans, sans-serif;
+ }
+ #number2{
+    color: rgb(4, 4, 250);
+    font-size: 36px;
+ }
+ .cooler-class{
+    font-size: 24px;
+ }
+ #another{
+    background-color: rgb(87, 245, 87);
+    font-size: 24px;
+    font-weight: bold;
+ }
